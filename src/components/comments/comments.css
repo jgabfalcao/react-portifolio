@@ -19,14 +19,24 @@
   border-radius: 2rem;
   user-select: none;
   cursor: pointer;
+  min-height: 300px;
 }
 
 .client__review {
-  color: var(--color-light);
+  /* color: var(--color-light); */
   font-weight: 300;
   display: block;
   width: 80%;
   margin: 0.8rem auto 0;
+}
+
+.client__occupation {
+  /* color: rgba(255, 255, 255, 0.8); */
+  color: var(--color-primary);
+}
+
+.client__name {
+  color: var(--color-light);
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
