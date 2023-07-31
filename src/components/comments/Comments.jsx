@@ -1,7 +1,7 @@
 import React from "react";
 import "./comments.css";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
+import AVTR1 from "../../assets/miguel_brito.jpg";
+import AVTR2 from "../../assets/maria_eduarda.jpg";
 import AVTR3 from "../../assets/avatar3.jpg";
 import AVTR4 from "../../assets/avatar4.jpg";
 
@@ -17,27 +17,19 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Tina Snow",
-    review: "teste teste teste",
-    socialMedia: "https://www.instagram.com/joaaofalcao/",
+    name: "Miguel Brito",
+    review:
+      "O Falcão é uma pessoa incrível, bem animada e curioso em aprender novas coisas, tem um conhecimento técnico muito bom em automações e front-end em geral e também está sempre procurando aprimorar mais o seu conhecimento",
+    socialMedia: "https://www.instagram.com/mbrito_._/",
+    occupation: "Desenvolvedor de software Junior II - Grão de Gente",
   },
   {
     avatar: AVTR2,
-    name: "Tina Snow",
-    review: "teste teste teste",
-    socialMedia: "https://www.instagram.com/giovana.limaa_/",
-  },
-  {
-    avatar: AVTR3,
-    name: "Tina Snow",
-    review: "teste teste teste",
-    socialMedia: "https://www.instagram.com/cocielo/",
-  },
-  {
-    avatar: AVTR4,
-    name: "Tina Snow",
-    review: "teste teste teste",
-    socialMedia: "https://www.instagram.com/hiibela_/",
+    name: "Maria Eduarda Rodrigues",
+    review:
+      "O João é a melhor pessoa que eu conheço! Ele está sempre buscando aprender mais e mais e nunca se contenta, sempre busca cada vez mais aprimorar seus conhecimentos. Trabalha muito bem em equipe e consegue se adaptar facilmente. Tem habilidade para solucionar problemas com velocidade e eficiência",
+    socialMedia: "https://www.instagram.com/itsdudars/",
+    occupation: "Estagiária - Escola Verde que te quero verde",
   },
 ];
 
@@ -58,24 +50,27 @@ const Comments = () => {
           disableOnInteraction: false,
         }}
       >
-        {data.map(({ avatar, name, review, socialMedia }, index) => {
-          const handleSwiperClick = () => {
-            window.open(socialMedia, "_blank");
-          };
-          return (
-            <SwiperSlide
-              onClick={handleSwiperClick}
-              key={index}
-              className="testimonial"
-            >
-              <div className="client__avatar">
-                <img src={avatar} alt={name} />
-              </div>
-              <h5 className="client__name">{name}</h5>
-              <small className="client__review">{review}</small>
-            </SwiperSlide>
-          );
-        })}
+        {data.map(
+          ({ avatar, name, review, socialMedia, occupation }, index) => {
+            const handleSwiperClick = () => {
+              window.open(socialMedia, "_blank");
+            };
+            return (
+              <SwiperSlide
+                onClick={handleSwiperClick}
+                key={index}
+                className="testimonial"
+              >
+                <div className="client__avatar">
+                  <img src={avatar} alt={name} />
+                </div>
+                <h5 className="client__name">{name}</h5>
+                <h5 className="client__occupation">{occupation}</h5>
+                <small className="client__review">{review}</small>
+              </SwiperSlide>
+            );
+          }
+        )}
       </Swiper>
     </section>
   );
