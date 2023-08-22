@@ -35,7 +35,7 @@ const data = [
 
 const Comments = () => {
   return (
-    <section id="testimonials">
+    <section id="comments">
       <h5>Review from Coworkers</h5>
       <h2>Comments</h2>
 
