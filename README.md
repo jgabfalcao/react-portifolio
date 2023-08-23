@@ -10,7 +10,7 @@ https://react-portifolio-orpin.vercel.app/
 Possui um layout responsivo, display flex e grid, design moderno, envio de formulário para meu e-mail de contato.
 
 ## Layout Mobile Video 
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![Mobile 1](https://github.com/jgabfalcao/react-portifolio/blob/main/src/assets/mobile.gif) 
 
 ## Layout web
 ![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
