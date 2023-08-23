@@ -1,13 +1,13 @@
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+# Portfólio
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/jgabfalcao/react-portifolio/blob/main/LICENSE) 
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
+https://react-portifolio-orpin.vercel.app/
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+É uma aplicação Front-end Web e Mobile construída para armazenar meus principais projetos, meus conhecimentos e também as principais habilidades que possuo para agregar a empresas interessadas em meu serviço.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+Possui um layout responsivo, display flex e grid, design moderno, envio de formulário para meu e-mail de contato.
 
 ## Layout mobile
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
@@ -17,79 +17,37 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 
 ![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
-
 # Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
 ## Front end
-- HTML / CSS / JS / TypeScript
 - ReactJS
-- React Native
-- Apex Charts
-- Expo
+- CSS
+- JS 
+
 ## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- Front end web: Vercel
 
 # Como executar o projeto
 
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
 ## Front end web
-Pré-requisitos: npm / yarn
+Pré-requisitos: npm
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/jgabfalcao/react-portifolio.git
 
 # entrar na pasta do projeto front end web
-cd front-web
+cd react-portifolio
 
 # instalar dependências
-yarn install
+npm install
 
 # executar o projeto
-yarn start
+npm start
 ```
 
 # Autor
 
-Wellington Mazoni de Andrade
+João Gabriel Falcão dos Santos
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/jo%C3%A3o-falc%C3%A3o013/
 
-
-
-# Getting Started to run My Portifolio
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
