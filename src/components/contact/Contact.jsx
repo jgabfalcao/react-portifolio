@@ -43,7 +43,7 @@ const Contact = () => {
             <h4>LinkedIn</h4>
             <h5>João Falcão</h5>
             <a
-              href="https://www.linkedin.com/in/jo%C3%A3o-falc%C3%A3o013/"
+              href="https://www.linkedin.com/in/joaofalcaodev/"
               target="_blank"
               rel="noreferrer"
             >
