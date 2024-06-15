@@ -59,7 +59,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Send a message
+              Me mande uma mensagem
             </a>
           </article>
         </div>
